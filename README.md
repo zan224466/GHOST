@@ -41,7 +41,8 @@ We are very troubled by the fact that GHOST can be used for unethical and disrep
 <img src="/examples/videos/mark.webp" width="360"/>
 <div/>
 
-## Installation
+## Installation  
+Python version 3.8  
   
 1. Clone this repository
   ```bash
@@ -60,6 +61,10 @@ We are very troubled by the fact that GHOST can be used for unethical and disrep
   ```bash
   sh download_models.sh
   ```
+if windows user here is how to download the weights  
+```bash
+download_models.bat
+```
 ## Usage
   1. Colab Demo <a href="https://colab.research.google.com/drive/1B-2JoRxZZwrY2eK_E7TB5VYcae3EjQ1f"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> or you can use jupyter notebook [SberSwapInference.ipynb](SberSwapInference.ipynb) locally
   2. Face Swap On Video
